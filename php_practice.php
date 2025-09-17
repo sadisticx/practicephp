@@ -305,25 +305,74 @@
 
     //increment / decre
     // pre-increment
-    $x = 10;
-    echo ++$x, "<br>";
+    // $x = 10;
+    // echo ++$x, "<br>";
 
-    //post-increment
-    $y = 10;
-    echo $y++, "<br>";
-    echo $y, "<br>";
+    // //post-increment
+    // $y = 10;
+    // echo $y++, "<br>";
+    // echo $y, "<br>";
 
-    //pre-decrement
-      $x = 10;
-    echo --$x, "<br>";
+    // //pre-decrement
+    //   $x = 10;
+    // echo --$x, "<br>";
     
-    //post-increment
-    $y = 10;
-    echo $y--, "<br>";
-    echo $y, "<br>";
+    // //post-increment
+    // $y = 10;
+    // echo $y--, "<br>";
+    // echo $y, "<br>";
+
+    //    $gender = "female";
+    //     $x = $gender == "male" ? "Mr." : "Ms.";
+
+    //     echo $x = $gender == "male" ? "Mr." : "Ms.";
+
+    //     echo $x;
+
+    // $color = "R" ?? "Red";
+    // echo $color;
+
+    // $students = array(
+    //     array("name" => "Mary", "gender" => "Female", "age" => 16),
+    //     array("name" => "Ray", "gender" => "Male", "age" => 17),
+    //     array("name" => "Hardy", "gender" => "Male", "age" => 20),
+    // );
+
+    // foreach($students as $student){
+    //       echo "<h1>Name:" . $student["name"] . "</h1>";
+    //       echo "<ul>";
+    //       echo "<li>Gender:" . $student["gender"] . "</li>";
+    //       echo "<li>Age:" . $student["age"] . "</li>";
+    //       echo "</ul>";
+    // }
+    
+    /*
+    <?php foreach ($students as $student){ ?>
+        <h1><?php echo $student['name']; ?></h1>
+        <ul>
+            <li><?php echo $student['gender']; ?></li>
+            <li><?php echo $student['age']; ?></li>
+        </ul>
+    <?php } ?>
+    */
+  /*  ?>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </tr>
+        <?php foreach ($students as $student){ ?>
+            <tr>
+                <td><?php echo $student['name']; ?></td>
+                <td><?php echo $student['gender']; ?></td>
+                <td><?php echo $student['age']; ?></td>
+            </tr>
+        <?php } ?>
+    </table> */
+
+
 
 
     ?>
-
-</body>
 </html>
